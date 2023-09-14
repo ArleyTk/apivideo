@@ -1,0 +1,29 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "idrol": 8002,
+  "nombrerol": "Cajero",
+  "descrol": "Este rol permitirá registrar ventas",
+  "permisosrol": "Permiso 1, Permiso 3"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/64f1fec3ab58eb4a154b5fdb HTTP/1.1
+
+###
+DELETE http://localhost:9000/api/users/64f1fe46ab58eb4a154b5fd9 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/64f1fe46ab58eb4a154b5fd9 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "John Arley Restrepo",
+  "age": 20,
+  "email": "Arleyxd@gmail.com"
+}

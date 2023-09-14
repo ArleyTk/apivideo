@@ -1,0 +1,3 @@
+git init
+git commit -m "Primet Commit"
+git config -user.email "Arleyrestrepoqu@gmail.com"
